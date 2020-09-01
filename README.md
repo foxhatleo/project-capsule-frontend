@@ -1,30 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Capsule Frontend Repository
 
-## Getting Started
+This is the repository for the frontend part of Project Capsule, a joint effort of Wenhao "Leo" Liang and Wa Lam
+"Michael" Si.
 
-First, run the development server:
+## Get Started
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. WebStorm is the recommended development environment for this project. I recommend that you get WebStorm first. It is
+free for students.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Next, make sure you have Node.js and Yarn installed. Run `yarn --version` in your terminal to check. If Yarn is not
+installed, go to [Installation on Yarn's official website](https://classic.yarnpkg.com/en/docs/install/) and follow
+instructions there.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Clone or download this project, and open it in WebStorm.
 
-## Learn More
+4. Now you need to install dependencies. There may be a small window in the bottom right corner of WebStorm that asks
+you to do this. If so, click "Run yarn install", and you should be good. If not, click "Terminal" at the bottom and run
+`yarn install`. After it is done, there should be a folder called "node_modules" in the project.
 
-To learn more about Next.js, take a look at the following resources:
+5. To run this project locally for development purposes, click on the "Debug" button in the top right corner of
+Webstorm. If it is greyed out, then you have to add a configuration first.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   1. Click "Add Configuration..." in the top right corner.
+   2. Click the "Add" button in the top left corner of the window that pops up.
+   3. Choose "npm".
+   4. Make sure "Command" is set to "run". Then, put "dev" in "Scripts". Leave "Arguments" empty.
+   5. Press "OK". The "Debug" button should now light up.
+   
+   
