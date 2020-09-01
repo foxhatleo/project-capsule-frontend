@@ -26,5 +26,6 @@ Webstorm. If it is greyed out, then you have to add a configuration first.
    3. Choose "npm".
    4. Make sure "Command" is set to "run". Then, put "dev" in "Scripts". Leave "Arguments" empty.
    5. Press "OK". The "Debug" button should now light up.
-   
+
+6. When the project is running locally, go to "localhost:3000" in your browser to open it.
    
