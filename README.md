@@ -29,3 +29,7 @@ Webstorm. If it is greyed out, then you have to add a configuration first.
 
 6. When the project is running locally, go to "localhost:3000" in your browser to open it.
 
+## Deployment
+
+This project is automatically deployed under production environment at "https://project-capsule.leoliang.com", using the
+latest commit on master. (Allow a few minutes for updating after a new commit on master.)
