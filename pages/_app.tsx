@@ -1,4 +1,4 @@
-// Changes in this file.
+// Changes in this file are reflected in all of the pages. This is the global layout file.
 
 import "../styles/globals.css";
 
